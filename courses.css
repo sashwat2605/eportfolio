@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#heading1{
+    text-align: center;
+}
+
+
+.carousel-item{
+    height: 75vh;
+}
+.carousel-item img{
+    height: 75vh;
+}
+
+
+#accordion{
+    margin-top: 50px;
+   
+}
+#end{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.nav-item{
+    cursor: pointer;
+
+}
+.nav-item :hover{
+     font-weight: bolder;
+     font-size: larger;
+     transition: all 0.2s ease-in-out;
+}
+nav{
+    background-image: url('https://images.pexels.com/photos/1323550/pexels-photo-1323550.jpeg?auto=compress&cs=tinysrgb&w=600');
+background-repeat: no-repeat;
+background-size: cover;
+}

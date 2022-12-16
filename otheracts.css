@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+   
+    background-image: url('https://images.pexels.com/photos/1323550/pexels-photo-1323550.jpeg?auto=compress&cs=tinysrgb&w=600');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    }
+    
+    .nav-item{
+        cursor: pointer;
+    
+    }
+    .nav-item :hover{
+         font-weight: bolder;
+         font-size: larger;
+         transition: all 0.2s ease-in-out;
+    }
+    
+   #heading2 h1{
+        text-align: center;
+        margin-top: 75px;
+    }    
+    
+
+    .carousel-item{
+        height: 50vh;
+    }
+    .carousel-item img{
+        height: 50vh;
+    }
+    #accordion1{
+        margin-top: 100px;
+    }
+
+
+    .accordion-item button{
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
